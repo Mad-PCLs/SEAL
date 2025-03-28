@@ -1,0 +1,22 @@
+# Editors
+.vscode/
+
+# Large files/folders
+/data/
+output_accuracy/
+output_latency/
+output_power/
+
+##########################################################################
+# Python                                                                 #
+# Source: https://github.com/github/gitignore/blob/main/Python.gitignore #
+##########################################################################
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Environments
+.venv

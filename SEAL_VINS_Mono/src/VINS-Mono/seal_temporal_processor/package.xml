@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>seal_temporal_processor</name>
+  <version>0.0.0</version>
+  <description>seal_temporal_processor package</description>
+
+  <maintainer email="vmilionis@todo.todo">vasMil</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+
+
+  <export> </export>
+
+</package>

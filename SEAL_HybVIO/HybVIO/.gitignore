@@ -1,0 +1,10 @@
+# Editors
+.vscode/
+.idea/
+
+# Compiled
+codegen/output
+build/
+
+# Large files
+/data

@@ -1,0 +1,56 @@
+%YAML:1.0
+
+#####################
+# High Level Guards #
+#####################
+# RUN_ORIGINAL Overrides all other settings to disable all PCL_CV functions
+seal_on: 1
+seal_denoiser_on: 1
+seal_edge_filter_on: 1
+seal_keypoint_detector_on: 1
+seal_lk_optical_flow_on: 1
+
+####################
+# Denoise Settings #
+####################
+
+# Denoiser Type: "THREE_PIX_MEDIAN", "FIVE_PIX_MEDIAN", "THREE_BY_THREE_MEDIAN"
+denoiser_type: "THREE_PIX_MEDIAN"
+
+# Edge Filter Settings
+edge_threshold: 17
+
+#################################
+# Image Pre-Processing Settings #
+#################################
+
+# Custom GFTT Settings
+# GFTT_CORNER_DERIV_TYPE: "ORIGINAL", "BINARIZED0
+# ORIGINAL: If aperture_size > 0, cv::Sobel is used, otherwise cv::Scharr
+gftt_corner_derivative_type: "BINARIZED"
+gftt_max_corners: 200
+gftt_quality_level: 0.01
+gftt_min_distance: 33.33333333333
+gftt_block_size: 3
+gftt_gradient_size: 3
+gftt_use_harris_detector: 0
+gftt_k: 0.04
+
+#########################
+# Optical Flow Settings #
+#########################
+
+# Feature Tracking Parameters
+# LK_SPATIAL_DERIV: "SCHARR", "SOBEL", "BINARIZED" "SCHARR_SCALED"
+lk_spatial_derivative_type: "BINARIZED"
+# Filter Types: "GAUSSIAN_5x5", "GAUSSIAN_3x3", "MEDIAN_3x3",
+#   "BOX_3x3", "BOX_2x2", "DIRECT_SUBSAMPLE"
+lk_pyr_down_filter_type: "BOX_2x2"
+lk_win_size_width: 31
+lk_win_size_height: 31
+lk_max_level: 3
+lk_term_criteria_max_count: 20
+lk_term_criteria_eps: 0.03
+lk_flags: 0
+lk_use_initial_flow: 0
+lk_min_eig_threshold: 0.001

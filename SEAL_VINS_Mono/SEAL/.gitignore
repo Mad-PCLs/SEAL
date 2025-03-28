@@ -1,0 +1,39 @@
+# Ignore build directory
+/build/
+
+# Ignore generated executables
+*.exe
+*.out
+*.app
+
+# Ignore object files and static libraries
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.dylib
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore CMake-specific files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore other generated files
+compile_commands.json
+
+# Ignore generated images
+tools/*.png
+
+# Ignore any data used for testing
+data/

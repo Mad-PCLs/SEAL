@@ -1,0 +1,18 @@
+@PACKAGE_INIT@
+
+# Include the targets file
+include("${CMAKE_CURRENT_LIST_DIR}/sealTargets.cmake")
+
+# Check for required dependencies
+find_package(OpenCV REQUIRED)
+
+# Set the include directories
+set_and_check(SEAL_INCLUDE_DIRS "@PACKAGE_INCLUDE_INSTALL_DIR@")
+
+# Set the library directories
+set_and_check(SEAL_LIBRARIES "@PACKAGE_LIB_INSTALL_DIR@")
+
+# Check that the targets exist
+if(NOT TARGET seal::seal)
+    message(FATAL_ERROR "The seal::seal target is missing.")
+endif()

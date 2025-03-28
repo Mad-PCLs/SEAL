@@ -1,0 +1,3 @@
+[submodule "SEAL_HybVIO/HybVIO/3rdparty/mobile-cv-suite"]
+	path = SEAL_HybVIO/HybVIO/3rdparty/mobile-cv-suite
+	url = git@github.com:AaltoML/mobile-cv-suite.git
