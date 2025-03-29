@@ -19,9 +19,6 @@ chmod +x docker_helper.sh
 Once inside the Docker container:
 
 ```bash
-# To prevent a dubious ownership error, add the 3rd-party dependencies as a safe directory
-git config --global --add safe.directory /home/SEAL-main/SEAL_HybVIO/HybVIO/3rdparty/mobile-cv-suite
-
 # Build 3rd-party dependencies
 cd SEAL-main/SEAL_HybVIO/HybVIO/3rdparty/mobile-cv-suite/
 BUILD_VISUALIZATIONS=OFF ./scripts/build.sh

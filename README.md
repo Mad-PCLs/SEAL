@@ -14,27 +14,6 @@ Each standalone folder has a `docker/` subfolder with the respective `Dockerfile
 
 The artifact can be run on generic x86 Linux machines with Docker installed.
 
-## Cloning the Repository
-
-The repository contains submodules, thus it should be cloned recursively:
-
-```bash
-# Git Clone with SSH:
-git clone --recursive git@github.com:Mad-PCLs/SEAL.git
-# or with HTTPS:
-git clone --recursive https://github.com/Mad-PCLs/SEAL.git
-```
-
-Or, when downloaded (e.g. as a zip), the repo and submodules could be initialized and updated with:
-
-```bash
-git init
-git remote add origin git@github.com:Mad-PCLs/SEAL.git
-git fetch origin
-git reset --hard origin/main
-git submodule update --init --recursive
-```
-
 ## HybVIO (SEAL_HybVIO)
 The instructions to follow for reproducing the second column (HybVIO-SEAL results) in Table 10 and Table 11 can be found in its [README.md](./SEAL_HybVIO/README.md). Specifically follow:
 
