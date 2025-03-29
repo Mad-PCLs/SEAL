@@ -1,0 +1,1 @@
+scripts/mobile-cv-suite-config.cmake
