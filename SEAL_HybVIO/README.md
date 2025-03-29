@@ -20,7 +20,7 @@ Once inside the Docker container:
 
 ```bash
 # Build 3rd-party dependencies
-cd SEAL-main/SEAL_HybVIO/HybVIO/3rdparty/mobile-cv-suite/
+cd [root-dir-name]/SEAL_HybVIO/HybVIO/3rdparty/mobile-cv-suite/
 BUILD_VISUALIZATIONS=OFF ./scripts/build.sh
 
 # Build HybVIO
