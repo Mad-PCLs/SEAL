@@ -54,6 +54,7 @@ VINS-Mono has been placed inside the `src` folder as required by ROS/catkin for 
 
 ```bash
 # From the root of this repo.
+cd /home/SEAL_VINS_Mono
 catkin_make
 
 # Source ROS setup script
