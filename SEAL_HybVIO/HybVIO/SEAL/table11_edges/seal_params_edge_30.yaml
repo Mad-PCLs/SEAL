@@ -25,7 +25,7 @@ edge_threshold: 30
 #################################
 
 # Custom GFTT Settings
-# GFTT_CORNER_DERIV_TYPE: "ORIGINAL", "BINARIZED0
+# GFTT_CORNER_DERIV_TYPE: "ORIGINAL", "BINARIZED"
 # ORIGINAL: If aperture_size > 0, cv::Sobel is used, otherwise cv::Scharr
 gftt_corner_derivative_type: "BINARIZED"
 gftt_max_corners: 200

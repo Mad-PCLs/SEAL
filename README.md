@@ -1,5 +1,8 @@
-# SEAL - ISCA 2025 Artifact
-In this codebase we combine all three repositories used to evaluate SEAL's integration with HybVIO, VINS-Mono and the HD1K optical flow benchmark.
+# SEAL: A Single-Event Architecture for In-Sensor Visual Localization
+
+This repository contains the artifact for the ISCA 2025 paper [**"SEAL: A Single-Event Architecture for In-Sensor Visual Localization"**](https://doi.org/10.1145/3695053.3731034).
+
+In this codebase we combine all three repositories used to evaluate SEAL's integration with [HybVIO](https://github.com/SpectacularAI/HybVIO), [VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono) and the [HD1K optical flow benchmark](http://hci-benchmark.iwr.uni-heidelberg.de/).
 Each standalone folder contains at its root instructions for:
 1. Downloading the required dataset.
 2. Building the simulator.

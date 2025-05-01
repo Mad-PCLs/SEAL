@@ -43,7 +43,7 @@ In order to retrieve the values reported in Table 12 we will parse the results o
 
 ```bash
 cd ../scripts
-python calculate_table_results.py
+python3 calculate_table_results.py
 ```
 
 ## Python Dependencies:
